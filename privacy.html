@@ -36,7 +36,7 @@ footer { margin-top:56px; padding-top:18px; border-top:1px solid var(--borda);
 <main>
 <a class="voltar" href="./">← Routine Clash</a>
 <h1>Privacy Policy</h1>
-<p>version: 2 (8 October 2026)</p>
+<p>version: 2 (8 October 2026, revised 13 October 2026)</p>
 <p>This policy explains what data Routine Clash collects, what it is for, who it is shared with, and what you can do about it. It is written from what the app actually does, not from a generic template.</p>
 <p>In case of any discrepancy, the Portuguese version of this document prevails.</p>
 <h2>Who is responsible</h2>
@@ -86,10 +86,12 @@ footer { margin-top:56px; padding-top:18px; border-top:1px solid var(--borda);
 </ul>
 <h2>Who else sees your data</h2>
 <p>We do not sell your data to anyone, and we do not use it for advertising. The app has no advertising and no behavioural analytics.</p>
-<p>There are three recipients, and no others:</p>
+<p>There are five recipients, and no others:</p>
 <ul>
 <li><strong>Supabase</strong> — hosts the database, the accounts and the files. Your data sits on its servers, in the Europe (Paris, eu-west-3) region — that is, inside the European Union.</li>
 <li><strong>Google (Firebase)</strong> — delivers notifications, and handles sign-in if you choose your Google account.</li>
+<li><strong>Cloudflare (Turnstile)</strong> — the "I am not a robot" check when you create an account and when you sign in. It receives your IP address and technical characteristics of the browser inside the app, only to decide whether there is a person on the other side. It does not receive your email, your password or anything you do in the app. Cloudflare may process this data outside the European Union, with the safeguards the GDPR requires for such transfers.</li>
+<li><strong>DiceBear</strong> — draws the avatar images. When the app shows an avatar, it asks this service for the image, which receives your IP address and the drawing options (colours, clothing and a "seed"). On a new account that seed is your username, which is already public in the app anyway. It receives nothing else.</li>
 <li><strong>Other people using the app</strong>, which is the part most worth understanding:</li>
 </ul>
 <h3>What others see</h3>
@@ -104,7 +106,7 @@ footer { margin-top:56px; padding-top:18px; border-top:1px solid var(--borda);
 </ul>
 <h2>How long we keep it</h2>
 <ul>
-<li><strong>Proof photos are deleted after 2 days.</strong> The record that you did the task stays — it still shows that you did it and the XP you earned — but the image disappears from the server.</li>
+<li><strong>Proof photos are deleted after 24 hours.</strong> The record that you did the task stays — it still shows that you did it and the XP you earned — but the image disappears from the server.</li>
 <li><strong>Everything else stays while you have an account.</strong></li>
 <li><strong>When you delete your account, we delete everything</strong>: profile, tasks, completions, messages, groups and photos. Your username becomes free for whoever wants it.</li>
 </ul>
